@@ -29,7 +29,7 @@ begin
 			if (count>1800001)			
 				out<=24'hfff;
 			else
-				out<=count;//24'd2900;// /50/58
+				out<=count/24'd2900;// /50/58
 			countp<=24'b0;
 			count<=24'b0;
 		end
